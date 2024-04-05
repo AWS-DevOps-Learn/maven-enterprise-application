@@ -18,7 +18,21 @@
 	<sonar.login>squ_9819f8a3031de69898435913ed8d319c357d7c8f</sonar.login>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-</properties>
+  </properties>
 
+        <distributionManagement>
 	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Wallmart Release Repository </name>
+	      <url>http://13.232.140.203:8081/repository/maven-ear-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Wallmart Snapshot Repository </name>
+	      <url>http://13.232.140.203:8081/repository/maven-ear-app-snapshot/</url>
+	    </snapshotRepository>
+	    
+        </distributionManagement>	
 </project>
