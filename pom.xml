@@ -20,20 +20,5 @@
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
 
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Wallmart Release Repository </name>
-	      <url>http://13.232.140.203:8081/repository/maven-ear-app-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Wallmart Snapshot Repository </name>
-	      <url>http://13.232.140.203:8081/repository/maven-ear-app-snapshot/</url>
-	    </snapshotRepository>
-	    
-        </distributionManagement>
 	
 </project>
